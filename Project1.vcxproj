@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="Check_password.cpp" />
+    <ClCompile Include="Choose_account.cpp" />
+    <ClCompile Include="Choose_building_type.cpp" />
+    <ClCompile Include="Choose_Client.cpp" />
+    <ClCompile Include="Choose_contract.cpp" />
+    <ClCompile Include="Choose_Day.cpp" />
+    <ClCompile Include="Choose_Manager.cpp" />
+    <ClCompile Include="Choose_Provider.cpp" />
+    <ClCompile Include="Choose_Surname.cpp" />
+    <ClCompile Include="Choose_surname_and_date.cpp" />
+    <ClCompile Include="Create_admin.cpp" />
+    <ClCompile Include="Create_building_type.cpp" />
+    <ClCompile Include="Create_client.cpp" />
+    <ClCompile Include="Create_contract.cpp" />
+    <ClCompile Include="Create_head_of_support.cpp" />
+    <ClCompile Include="Create_manager.cpp" />
+    <ClCompile Include="Create_material.cpp" />
+    <ClCompile Include="Create_ProviderOrCarrier.cpp" />
+    <ClCompile Include="Create_supply.cpp" />
+    <ClCompile Include="Delete_contract.cpp" />
+    <ClCompile Include="DisEnab_headOfSupport.cpp" />
+    <ClCompile Include="DisEnab_manager.cpp" />
+    <ClCompile Include="Edit_contract.cpp" />
+    <ClCompile Include="Head_of_Support_Department.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="Registration.cpp" />
+    <ClCompile Include="Requests_Menu.cpp" />
+    <ClCompile Include="sqlite\sqlite3.c">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <FileType>CppCode</FileType>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Admin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Check_password.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Choose_account.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Choose_building_type.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Choose_Client.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Choose_contract.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Choose_Day.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Choose_Manager.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Choose_Provider.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Choose_Surname.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Choose_surname_and_date.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Create_admin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Create_building_type.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Create_client.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Create_contract.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Create_head_of_support.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Create_manager.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Create_material.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Create_ProviderOrCarrier.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Create_supply.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Delete_contract.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DisEnab_headOfSupport.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DisEnab_manager.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Edit_contract.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Head_of_Support_Department.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyClass.h" />
+    <ClInclude Include="Registration.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Requests_Menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check_password.resx">
+      <DependentUpon>Check_password.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_account.resx">
+      <DependentUpon>Choose_account.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_building_type.resx">
+      <DependentUpon>Choose_building_type.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_Client.resx">
+      <DependentUpon>Choose_Client.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_contract.resx">
+      <DependentUpon>Choose_contract.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_Day.resx">
+      <DependentUpon>Choose_Day.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_Manager.resx">
+      <DependentUpon>Choose_Manager.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_Provider.resx">
+      <DependentUpon>Choose_Provider.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_Surname.resx">
+      <DependentUpon>Choose_Surname.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_surname_and_date.resx">
+      <DependentUpon>Choose_surname_and_date.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_admin.resx">
+      <DependentUpon>Create_admin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_building_type.resx">
+      <DependentUpon>Create_building_type.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_client.resx">
+      <DependentUpon>Create_client.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_contract.resx">
+      <DependentUpon>Create_contract.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_head_of_support.resx">
+      <DependentUpon>Create_head_of_support.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_manager.resx">
+      <DependentUpon>Create_manager.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_material.resx">
+      <DependentUpon>Create_material.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_ProviderOrCarrier.resx">
+      <DependentUpon>Create_ProviderOrCarrier.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_supply.resx">
+      <DependentUpon>Create_supply.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_contract.resx">
+      <DependentUpon>Delete_contract.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisEnab_headOfSupport.resx">
+      <DependentUpon>DisEnab_headOfSupport.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisEnab_manager.resx">
+      <DependentUpon>DisEnab_manager.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_contract.resx">
+      <DependentUpon>Edit_contract.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Head_of_Support_Department.resx">
+      <DependentUpon>Head_of_Support_Department.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager.resx">
+      <DependentUpon>Manager.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Requests_Menu.resx">
+      <DependentUpon>Requests_Menu.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{D17A1241-F96F-44C1-A10D-2281522DCF7B}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
