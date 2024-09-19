@@ -1,0 +1,7 @@
+﻿  Registration.cpp
+  Admin.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+Registration.obj : warning LNK4248: неразрешенная лексема TypeRef (01000023) для "sqlite3"; образ нельзя запустить
+Registration.obj : error LNK2028: ссылка на неразрешенную лексему (0A0000A6) "extern "C" int __cdecl sqlite3_open(char const *,struct sqlite3 * *)" (?sqlite3_open@@$$J0YAHPEBDPEAPEAUsqlite3@@@Z) в функции "private: void __clrcall Project1::Registration::button1_Click(class System::Object ^,class System::EventArgs ^)" (?button1_Click@Registration@Project1@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z)
+Registration.obj : error LNK2019: ссылка на неразрешенный внешний символ "extern "C" int __cdecl sqlite3_open(char const *,struct sqlite3 * *)" (?sqlite3_open@@$$J0YAHPEBDPEAPEAUsqlite3@@@Z) в функции "private: void __clrcall Project1::Registration::button1_Click(class System::Object ^,class System::EventArgs ^)" (?button1_Click@Registration@Project1@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z).
+sqlite3.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+D:\Programs\C++ My Work\Курсач №2\Project1\x64\Debug\Project1.exe : fatal error LNK1120: неразрешенных внешних элементов: 2

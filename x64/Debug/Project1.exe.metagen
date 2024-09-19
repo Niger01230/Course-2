@@ -1,0 +1,303 @@
+  Project1.Admin.resources - Embedded, ContainedInManifestFile, 
+  Project1.Check_password.resources - Embedded, ContainedInManifestFile, 
+  Project1.Choose_account.resources - Embedded, ContainedInManifestFile, 
+  Project1.Choose_building_type.resources - Embedded, ContainedInManifestFile, 
+  Project1.Choose_Client.resources - Embedded, ContainedInManifestFile, 
+  Project1.Choose_contract.resources - Embedded, ContainedInManifestFile, 
+  Project1.Choose_Day.resources - Embedded, ContainedInManifestFile, 
+  Project1.Choose_Manager.resources - Embedded, ContainedInManifestFile, 
+  Project1.Choose_Provider.resources - Embedded, ContainedInManifestFile, 
+  Project1.Choose_Surname.resources - Embedded, ContainedInManifestFile, 
+  Project1.Choose_surname_and_date.resources - Embedded, ContainedInManifestFile, 
+  Project1.Create_admin.resources - Embedded, ContainedInManifestFile, 
+  Project1.Create_building_type.resources - Embedded, ContainedInManifestFile, 
+  Project1.Create_client.resources - Embedded, ContainedInManifestFile, 
+  Project1.Create_contract.resources - Embedded, ContainedInManifestFile, 
+  Project1.Create_head_of_support.resources - Embedded, ContainedInManifestFile, 
+  Project1.Create_manager.resources - Embedded, ContainedInManifestFile, 
+  Project1.Create_material.resources - Embedded, ContainedInManifestFile, 
+  Project1.Create_ProviderOrCarrier.resources - Embedded, ContainedInManifestFile, 
+  Project1.Create_supply.resources - Embedded, ContainedInManifestFile, 
+  Project1.Delete_contract.resources - Embedded, ContainedInManifestFile, 
+  Project1.DisEnab_headOfSupport.resources - Embedded, ContainedInManifestFile, 
+  Project1.DisEnab_manager.resources - Embedded, ContainedInManifestFile, 
+  Project1.Edit_contract.resources - Embedded, ContainedInManifestFile, 
+  Project1.Head_of_Support_Department.resources - Embedded, ContainedInManifestFile, 
+  Project1.Manager.resources - Embedded, ContainedInManifestFile, 
+  Project1.Registration.resources - Embedded, ContainedInManifestFile, 
+  Project1.Requests_Menu.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Project1, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Project1.Create_manager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Admin): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String admin_login : Public
+Class Project1.Create_head_of_support: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Admin): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String admin_login : Public
+Class Project1.DisEnab_manager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Choose_account): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    change_Disable(): PrivateScope, Public, HideBySig
+    change_Enable(): PrivateScope, Public, HideBySig
+    update_ListBox(): PrivateScope, Public, HideBySig
+Class Project1.DisEnab_headOfSupport: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Choose_account): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    change_Disable(): PrivateScope, Public, HideBySig
+    change_Enable(): PrivateScope, Public, HideBySig
+    update_ListBox(): PrivateScope, Public, HideBySig
+Class Project1.Choose_account: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Admin): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 choose : Public
+  Methods:
+    change_Disable(): PrivateScope, Public, HideBySig
+    change_Enable(): PrivateScope, Public, HideBySig
+Class Project1.Create_building_type: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Admin): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    update_ListBox(): PrivateScope, Public, HideBySig
+Class Project1.Create_material: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Admin): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project1.Choose_contract: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Requests_Menu): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 choose : Public
+  Methods:
+    update_ComboBox(): PrivateScope, Public, HideBySig
+Class Project1.Choose_Provider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Requests_Menu): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    update_ComboBox(): PrivateScope, Public, HideBySig
+Class Project1.Choose_Manager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Requests_Menu): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    update_ComboBox(): PrivateScope, Public, HideBySig
+Class Project1.Choose_Client: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Requests_Menu): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    update_ComboBox(): PrivateScope, Public, HideBySig
+Class Project1.Choose_Surname: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Requests_Menu): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project1.Choose_Day: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Requests_Menu): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 choose : Public
+Class Project1.Choose_surname_and_date: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Requests_Menu): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project1.Requests_Menu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Admin): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Update_TextBox(String): PrivateScope, Public, HideBySig
+Class Project1.Admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Registration): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String login : Public
+Class Project1.Create_client: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Manager): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String login_manager : Public
+Class Project1.DatabaseHelper: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    open_database(String): PrivateScope, Public, Static, HideBySig
+    close_database(sqlite3*): PrivateScope, Public, Static, HideBySig
+Class Project1.Employee: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project1.Admin_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Project1.Employee
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_admin_db(String, String, String, Int32): PrivateScope, Public, HideBySig
+Class Project1.Manager_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Project1.Employee
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_manager_db(String, String, String, Int32, String): PrivateScope, Public, HideBySig
+    get_DisEnab_account(Int32): PrivateScope, Public, HideBySig
+    Request_all_managers_by_surname(String): PrivateScope, Public, HideBySig
+    Request_all_managers_whichNoContact_by_day(DateTime): PrivateScope, Public, HideBySig
+    Request_all_managers_whichNoAndYesContact_by_day(DateTime): PrivateScope, Public, HideBySig
+Class Project1.Head_of_support_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Project1.Employee
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_support_db(String, String, String, Int32, String): PrivateScope, Public, HideBySig
+    get_DisEnab_account(Int32): PrivateScope, Public, HideBySig
+Class Project1.Account_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_account_db(String, String, Int32, Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    disEnab_manager_account_db(Int32, Int32): PrivateScope, Public, HideBySig
+    disEnab_headOfSupport_account_db(Int32, Int32): PrivateScope, Public, HideBySig
+Class Project1.Client_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_client_db(String, String, String, String): PrivateScope, Public, HideBySig
+Class Project1.Contract_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_contract_db(String, Int32, Int32, Int32, DateTime, Int32, String, String, Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    update_price_db(Int32, Int32): PrivateScope, Public, HideBySig
+    update_contract_db(String): PrivateScope, Public, HideBySig
+    get_start_date(Int32): PrivateScope, Public, HideBySig
+    get_cost(Int32): PrivateScope, Public, HideBySig
+    get_isImprest(Int32): PrivateScope, Public, HideBySig
+    get_isPaid(Int32): PrivateScope, Public, HideBySig
+    delete_contract_db(Int32): PrivateScope, Public, HideBySig
+    Request_estimate(Int32): PrivateScope, Public, HideBySig
+    Request_bigger_average(): PrivateScope, Public, HideBySig
+    Request_contract_per_week(): PrivateScope, Public, HideBySig
+    Request_contract_per_week_by_manager(DateTime, DateTime, String): PrivateScope, Public, HideBySig
+    Request_contracts_by_manager(Int32, DateTime, DateTime): PrivateScope, Public, HideBySig
+    Request_all_materials(Int32): PrivateScope, Public, HideBySig
+    Request_all_contracts_by_client(Int32): PrivateScope, Public, HideBySig
+    Request_most_exspensive_contract(): PrivateScope, Public, HideBySig
+Class Project1.Building_type_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_builType_db(String, String): PrivateScope, Public, HideBySig
+    get_Image_db(Int32): PrivateScope, Public, HideBySig
+    get_Name_db(Int32, String* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    check_count(Int32): PrivateScope, Public, HideBySig
+    choose_builType(Int32): PrivateScope, Public, HideBySig
+Class Project1.Provider_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_provider_db(String, String): PrivateScope, Public, HideBySig
+    add_material_to_provider_db(Int32, Int32, String, String): PrivateScope, Public, HideBySig
+    get_provider_by_material(Int32): PrivateScope, Public, HideBySig
+    Request_all_payments(Int32, DateTime, DateTime): PrivateScope, Public, HideBySig
+Class Project1.Carrier_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_carrier_db(String, String): PrivateScope, Public, HideBySig
+    add_material_to_carrier_db(Int32, Int32, String, String): PrivateScope, Public, HideBySig
+    get_carrier_by_material(Int32): PrivateScope, Public, HideBySig
+Class Project1.Material_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_material_db(String, Int32): PrivateScope, Public, HideBySig
+    get_material_name_db(Int32): PrivateScope, Public, HideBySig
+    get_price_per_piece(Int32): PrivateScope, Public, HideBySig
+Class Project1.Necessary_material_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_necessary_material_db(Int32, Int32, Int32, Int32, sqlite3*): PrivateScope, Public, HideBySig
+    get_material_ids_db(Int32): PrivateScope, Public, HideBySig
+    set_isExist_db(Int32, Int32): PrivateScope, Public, HideBySig
+    get_quantity(Int32, Int32): PrivateScope, Public, HideBySig
+Class Project1.BuildingType_Material_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_material_to_building_db(Int32, Int32): PrivateScope, Public, HideBySig
+    get_and_add_NecesMat_Build_db(Int32, Int32, Int32): PrivateScope, Public, HideBySig
+Class Project1.Supply_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_supply_db(DateTime, String, Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class Project1.Mat_Sup_Prov_Car: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_Mat_Sup_Prov_Car_db(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+Class Project1.Payment_provider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_Payment_provider_db(DateTime, Int32, Int32): PrivateScope, Public, HideBySig
+Class Project1.Payment_carrier: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    add_Payment_carrier_db(DateTime, Int32, Int32): PrivateScope, Public, HideBySig
+Class Project1.Choose_building_type: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Create_contract): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 index : Public
+  Methods:
+    UpdateImage(): PrivateScope, Public, HideBySig
+Class Project1.Create_contract: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Manager): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String login_manager : Public
+    Int32 bul_index : Public
+  Methods:
+    update_ComboBox(): PrivateScope, Public, HideBySig
+    changeTextBox(String): PrivateScope, Public, HideBySig
+Class Project1.Edit_contract: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Manager): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    update_ComboBox_1(): PrivateScope, Public, HideBySig
+    update_ComboBox_2(): PrivateScope, Public, HideBySig
+Class Project1.Delete_contract: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Manager): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    update_ComboBox(): PrivateScope, Public, HideBySig
+Class Project1.Manager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Registration): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String login : Public
+Class Project1.Create_ProviderOrCarrier: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Head_of_Support_Department): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 choose : Public
+  Methods:
+    MakeChoose(): PrivateScope, Public, HideBySig
+    update_ListBox(): PrivateScope, Public, HideBySig
+Class Project1.Create_supply: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Head_of_Support_Department): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String login : Public
+  Methods:
+    update_ComboBox(): PrivateScope, Public, HideBySig
+Class Project1.Head_of_Support_Department: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Registration): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String login : Public
+Class Project1.Create_admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Registration): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project1.Check_password: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Project1.Registration): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project1.Registration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
